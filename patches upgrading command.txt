@@ -1,0 +1,21 @@
+patches upgrading command:
+Esxcli software vib update -d /vmfs/volumes/datastore1/ESXi670-202210001(1).zip
+
+ESXI upgrade commands:
+
+esxcli software sources profile list -d 
+
+esxcli software profile update -d 
+
+esxcli software vib remove -n 
+
+http://cel-ctg.cisco.com/~tecmint/ISO's/
+
+Hi Rajkumar,
+
+An update- we have upgraded patching latest ESXI version in mentioned servers and now it's working fine.
+
+Please check let me know
+
+Regards,
+M Avinash Reddy.
